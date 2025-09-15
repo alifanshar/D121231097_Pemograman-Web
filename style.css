@@ -47,8 +47,8 @@ nav ul li a:hover {
     color: #ddd;
 }
 
-/* Hero */
-.hero {
+/* First-layer */
+.first-layer {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     height: 100vh;
     display: flex;
@@ -58,11 +58,11 @@ nav ul li a:hover {
     color: white;
     padding: 0 2rem;
 }
-.hero h1 {
+.first-layer h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-.hero p {
+.first-layer p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
@@ -183,7 +183,7 @@ footer {
     .about {
         flex-direction: column;
     }
-    .hero h1 {
+    .first-layer h1 {
         font-size: 2rem;
     }
     nav ul {
